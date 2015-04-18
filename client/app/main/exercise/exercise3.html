@@ -1,0 +1,70 @@
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab" id="headingThree">
+    <h4 class="panel-title">
+      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false"
+         aria-controls="collapseThree">
+        Exercise 2: Directive
+      </a>
+    </h4>
+  </div>
+  <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+    <div class="panel-body">
+      <ol><div style="font-family: monospace">
+        todos = [ <br />
+        {<br />
+        &nbsp;"title": "Grails",<br />
+        &nbsp;"createdBy": "nikhil.bhandari@intelligrape.com",<br />
+        &nbsp;"completed": false<br />
+        }<br />
+        ];
+
+      </div>
+
+        <li>Declare an array of objects in todo controller's scope and use ng-repeat to display them</li>
+        <li>Move the navigation bar, todo list, and forms into separate files inside partials and then include them using
+          ng-include</li>
+        <li>
+          Use ng-click to insert items inside the array <br/>
+          hint:<br/><br/>
+
+          Declare an array using<br/><br/>
+
+          var a = [];<br/><br/>
+
+          Insert Items using<br/><br/>
+
+          a.push("item");<br/>
+          a.push({});<br/>
+        </li>
+        <li>
+          Use ng-click to delete items from the array above<br/><br/>
+
+          hint:<br/><br/>
+
+          var a = [1,2,3,4,5]<br/><br/>
+
+          a.splice(deleteItemsFromIndex, numberOfItems)<br/>
+          ie. to remove first item<br/><br/>
+
+          a.splice(0,1);<br/><br/>
+
+          to remove 2nd item<br/><br/>
+
+          a.splice(1,1);<br/><br/>
+
+
+
+        </li>
+      </ol>
+
+      <br/>
+      <br/>
+      More at:
+      <a href="https://docs.angularjs.org/guide/directive">
+        https://docs.angularjs.org/guide/directive
+      </a>
+
+    </div>
+  </div>
+</div>
+
